@@ -17,50 +17,25 @@ class FindstationdataSpider(scrapy.Spider):
 
     source_xpath_dict = {
         "start": [LIGERO_PAGE_XPATH, METRO_PAGE_XPATH],
-        METRO_PAGE_XPATH : [METRO_LINES_XPATH]
+        METRO_PAGE_XPATH: [METRO_LINES_XPATH]
     }
 
     target_callback_dict = {
-        METRO_LINES_XPATH: "parse_metro_lines" # Buscar como obtener callable de una función y pasarlo aquí
-
+        METRO_LINES_XPATH: "parse_metro_lines"
+    # TODO: Incluir el xpath y prser para metroligero
     }
 
-    def parse(self, response):
+    def parse(self, response): #TODO: Revisar si se puede editar la llamada por defecto a parse para ir directamente
+                               # a navigation parse y saltarse esto, ej en doc de scrapy
 
         request = response.follow(response.url, callback=self.navigation_parse)
         request.meta['link_xpath'] = "start"
         yield request
 
-        # # Extracting Metro page URL
-        # metro_page = response.xpath('%s' % METRO_PAGE_XPATH).extract_first()
-        # self.log("Extracted href: %s" %metro_page)
-        #
-        # # Following Metro URL
-        # if metro_page is not None:
-        #     self.log("Following %s to reach Metro page" %metro_page)
-        #     yield response.follow(metro_page,  callback=self.parse_metro_page)
-        #
-        # # Extracting Metro Ligero page URL
-        # metro_ligero_page = response.xpath(LIGERO_PAGE_XPATH).extract_first()
-        # self.log("Extracted href: %s" %metro_ligero_page)
-
-        # Following Metro Ligero URL
-        # if metro_ligero_page is not None:
-        #     self.log("Following %s to reach Metro page" %metro_ligero_page)
-        #     yield response.follow(metro_ligero_page,  callback = self.parse_metro_ligero_page)
-
-    # //div[@id="colIzda"]/ul[@id="menuSecun"]/ul/li/a[span="Metro"]/../ul/li[a="Líneas"]/a/@href
-    # //div[@id="colIzda"]/ul[@id="menuSecun"]/ul/li/a[span="Metro"]/../ul/li[a="Líneas"]/a/@href
-    def parse_metro_page(self, response):
-        metro_lines_page = response.xpath(METRO_LINES_XPATH).extract_first()
-        self.log("Extractinig URL to get Metro lines %s" %metro_lines_page)
-
 
     def navigation_parse(self, response):
 
-        self.log("Reached: navigation_parse")
         link_xpath = response.meta['link_xpath']
-        self.log("Reached: navigation_parse, link_xpath: %s" %link_xpath)
 
         if link_xpath in self.source_xpath_dict:
 
@@ -68,16 +43,25 @@ class FindstationdataSpider(scrapy.Spider):
 
             for xpath_to_follow in target_list:
                 next_page = response.xpath(xpath_to_follow).extract_first()
+                self.log("[navigation_parse]: navigating to: %s" % next_page)
                 request = response.follow(next_page, callback=self.navigation_parse)
                 request.meta['link_xpath'] = xpath_to_follow
                 yield request
 
         elif link_xpath in self.target_callback_dict:
+            self.log("[navigation_parse] Parser found to URL: %s" % link_xpath)
             target_callback = self.target_callback_dict[link_xpath]
-            response.follow(response.url, callback=self.target_callback)  # mirar si funciona asi, si no mirar lo del callable
+            getattr(self, target_callback)(response)
+        else:
+            self.log("The link in the xpath %s cannot be found in navigation xpath nor target xpath." % link_xpath)
 
 
+    def parse_metro_lines(self, response):
+        self.log("[parse_metro_lines] response's URL %s" % response.url)
+        # TODO: Completar revisando como parsear lo que necesitamos
+        pass
 
-
-    def parse_metro_lines (self, response):
-        self.log("Reached: parse_metro_lines")
+    def parse_ligero_lines(self, response):
+        self.log("[parse_ligero_lines] response's URL %s" % response.url)
+        # TODO: Completar revisando como parsear lo que necesitamos
+        pass
