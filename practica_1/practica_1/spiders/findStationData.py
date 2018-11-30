@@ -58,6 +58,10 @@ class FindstationdataSpider(scrapy.Spider):
 
     def parse_metro_lines(self, response):
         self.log("[parse_metro_lines] response's URL %s" % response.url)
+
+        # //div[@id="colCentro"]/div[ul]/ul/li/a
+        link_node_list = response.xpath('').extract()
+
         # TODO: Completar revisando como parsear lo que necesitamos
         pass
 
