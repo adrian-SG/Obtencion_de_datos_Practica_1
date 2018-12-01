@@ -11,4 +11,8 @@ import scrapy
 class Practica1Item(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+
+    station_name = scrapy.Field()
+
+    line_name = scrapy.Field()
+    line_position = scrapy.Field()
