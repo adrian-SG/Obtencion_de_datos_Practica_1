@@ -1,0 +1,1 @@
+C:\Coding\Anaconda\Scripts\activate.bat C:\Coding\Anaconda
