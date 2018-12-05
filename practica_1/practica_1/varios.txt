@@ -1,6 +1,0 @@
-
-XPATH the la URL de la pagina para METRO
-//div[@id="colIzda"]/ul[@id="menuSecun"]/ul/li/a[span="Metro"]/@href
-
-XPATH para la URL de la pagina para METRO LIGERO
-//div[@id="colIzda"]/ul[@id="menuSecun"]/ul/li/a[span="Metro Ligero / Tranvía"]/@href
