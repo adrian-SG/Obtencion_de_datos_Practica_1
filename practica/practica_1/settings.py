@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Scrapy settings for practica_1 project
+# Scrapy settings for practica project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -9,14 +9,14 @@
 #     https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'practica_1'
+BOT_NAME = 'practica'
 
-SPIDER_MODULES = ['practica_1.spiders']
-NEWSPIDER_MODULE = 'practica_1.spiders'
+SPIDER_MODULES = ['practica.practica_1.spiders']
+NEWSPIDER_MODULE = 'practica.practica_1.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'practica_1 (+http://www.yourdomain.com)'
+#USER_AGENT = 'practica (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -47,13 +47,13 @@ ROBOTSTXT_OBEY = True
 # Enable or disable spider middlewares
 # See https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'practica_1.middlewares.Practica1SpiderMiddleware': 543,
+#    'practica.middlewares.Practica1SpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    'practica_1.middlewares.Practica1DownloaderMiddleware': 543,
+#    'practica.middlewares.Practica1DownloaderMiddleware': 543,
 #}
 
 # Enable or disable extensions
@@ -65,7 +65,7 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
-#    'practica_1.pipelines.Practica1Pipeline': 300,
+#    'practica.pipelines.Practica1Pipeline': 300,
 #}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
