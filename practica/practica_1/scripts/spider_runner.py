@@ -4,4 +4,4 @@ from scrapy.utils.project import get_project_settings
 process = CrawlerProcess(get_project_settings())
 
 process.crawl('findStationData')
-process.start() # the script will block here until the crawling is finished
+process.start()
