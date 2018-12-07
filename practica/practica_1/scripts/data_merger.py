@@ -3,7 +3,6 @@ import os
 import re
 from unicodedata import normalize
 
-scripts_dir_path = os.path.dirname(os.path.realpath(__file__))
 
 # Elimina las tildes sin quitar las de la ennes
 def clean_string(string):
@@ -21,14 +20,29 @@ def clean_string(string):
     return string
 
 
+def sorting_criteria(line_num, line_position):
+    return str(10 ** 10) if line_num is None else line_num, line_position
+
+
+
 def load_and_filter_metro_data():
     with open(scripts_dir_path + '/../data/stops_metro.txt', encoding='utf-8-sig') as metro_data:
         metro_dict = list()
+        metro_dict_aux = list()
 
         dict_reader = csv.DictReader(metro_data)
+        global metro_fields
+        metro_fields = dict_reader.fieldnames
+
         for row in dict_reader:
             if row[dict_reader.fieldnames[0]].startswith('est'):  # TODO eliminar filtrado
-                metro_dict.append(row)
+                metro_dict_aux.append(row)
+
+        for row in metro_dict_aux:
+            aux_dict = dict()
+            [aux_dict.update({cell: clean_string(row[cell])}) for cell in row]
+            metro_dict.append(aux_dict)
+
         return metro_dict
 
 
@@ -37,6 +51,9 @@ def load_and_clean_scrap_data():
         scrapy_metro_dict = list()
 
         dict_reader = csv.DictReader(scrapy_metro_data)
+        global scrap_fields
+        scrap_fields = dict_reader.fieldnames
+
         for row in dict_reader:
             aux_dict = dict()
             [aux_dict.update({cell: clean_string(row[cell])}) for cell in row]
@@ -44,41 +61,51 @@ def load_and_clean_scrap_data():
         return scrapy_metro_dict
 
 
+scripts_dir_path = os.path.dirname(os.path.realpath(__file__))
+
+metro_fields = list()
+scrap_fields = list()
+
 metro_dict = load_and_filter_metro_data()
 scrapy_metro_dict = load_and_clean_scrap_data()
 
-merged_data = metro_dict.copy()
 
-for row in scrapy_metro_dict: #TODO cambiar la iteracion, iterar directamente sobre el csv de metro añadiendo la info
-                              # del scrap y despues ordenar. Mirar si hay que añadir los campos del scrap vacios para
-                              # los registros del csv que no sean estaciones
-    # print(row['station_name'])
-    for metro_row in merged_data:
+# TODO Si hiciese falta, normalizar nombres eliminando todo tipo de prefijos espacios etc y ordenando palabras
+#  del nombre alfabeticamente para comparacion para evitar diferencias de orden
+
+
+# Para cada fila proveniente del fichero, buscar los datos del scrap. Si no se encuentran:
+# datos añadir campos nuevos vacios
+for metro_row in metro_dict:
+    positive_match = False
+    for scrap_row in scrapy_metro_dict:
         aux_metro_stop_name = metro_row['stop_name'].lower()
-        aux_scrap_station_name = row['station_name'].lower()
+        aux_scrap_station_name = scrap_row['station_name'].lower()
 
-        # Si el nombre de la parada del scrap es igual o esta coneida en el nombre de la parada del fichero stops
-        if aux_metro_stop_name == aux_scrap_station_name or aux_metro_stop_name.find(aux_scrap_station_name) != -1: # TODO: añadir a la condicion que el stop_id empiece por est
-            metro_row.update(row)
+        is_station = metro_row['stop_id'].startswith('est')
+        equals = aux_metro_stop_name == aux_scrap_station_name
+        metro_contains_scrap = aux_metro_stop_name.find(aux_scrap_station_name) != -1
+
+        if is_station and (equals or metro_contains_scrap):  # positive match
+            metro_row.update(scrap_row)
+            positive_match = True
             break
-            # print('Match found, adding scrap data to metro_data\nResult row is: \t%s' % metro_row)
 
-for row in merged_data:
-    print(row)
+    if not positive_match:
+        aux = dict()
+        [aux.update({key: None}) for key in scrap_fields]
+        metro_row.update(aux)
 
 
+with open(scripts_dir_path + '/../merge_results/restult_test_1.csv', 'wt', encoding='utf-8-sig') as target_file:
 
+    field_names = metro_fields + scrap_fields
+    writer = csv.DictWriter(target_file, field_names)
 
-# with open(scripts_dir_path + '/../merge_results/restult_test_1.csv', 'wt', encoding='utf-8-sig') as target_file:
-#
-#     field_names = ['stop_id','stop_code','stop_name','stop_desc','stop_lat','stop_lon','zone_id','stop_url','location_type','parent_station','stop_timezone','wheelchair_boarding','station_name','transport_name','line_name','line_number','position_in_line','accessible','escalator','elevator']
-#
-#     writer = csv.DictWriter(target_file, field_names)
-#
-#     writer.writeheader()
-#
-#     #
-#
-#     for row in merged_data:
-#         writer.writerow(row)
-
+    writer.writeheader()
+    # Ordenar segun citerios:
+    # 1: Primero los registros con numero de linea
+    # 2: Los registros con menor numero de linea primero
+    # 3: Los registos con menor posicion en linea primero
+    for row in sorted(metro_dict, key=lambda r: sorting_criteria(r['line_number'], r['position_in_line'])):
+        writer.writerow(row)
