@@ -56,6 +56,7 @@ class FindstationdataSpider(scrapy.Spider):
             # Si el xpath que llega en la peticion esta en el diccionario source_xpath_dict
             # se coge su valor, que es una lista de xpath que de donde obtener los links hacia los que navegar
             target_list = self.source_xpath_dict[link_xpath]
+            transport_name = None
 
             for xpath_to_follow in target_list: # Itero la lista de xpath
 
@@ -66,6 +67,8 @@ class FindstationdataSpider(scrapy.Spider):
                     next_page = response.xpath(xpath_to_follow).extract_first()
                     self.log("[navigation_parse] --> Parser found to URL: %s" % xpath_to_follow)
                     target_callback = self.target_callback_dict[xpath_to_follow]
+                    transport_name = 'METRO' if xpath_to_follow == METRO_LINES_XPATH else 'METRO LIGERO'
+
 
                 else:
                     # en el resto de casos se navega hacia el link al que apunta el xpath y se vuelve
@@ -78,6 +81,7 @@ class FindstationdataSpider(scrapy.Spider):
                 request = response.follow(next_page, callback=getattr(self, target_callback))
                 # Se añaden a la peticion los datos a pasar para la siguiente pag
                 request.meta['link_xpath'] = xpath_to_follow
+                item_loader.add_value('transport_name', transport_name)
                 request.meta['item'] = item_loader
 
                 yield request
@@ -99,7 +103,7 @@ class FindstationdataSpider(scrapy.Spider):
             line_name = link_node.xpath('span[position()=2]/text()').extract_first()
             link = link_node.xpath('@href').extract_first()
             # Se almacena el nombre de la linea en el item
-            new_item_loader.add_value('line_name', line_name)
+            # new_item_loader.add_value('line_name', line_name)
 
             self.log("[parse_metro_lines] -->  navigating to line:\t %s " % line_name)
 
@@ -110,9 +114,38 @@ class FindstationdataSpider(scrapy.Spider):
 
         # TODO: Completar revisando como parsear lo que necesitamos
 
+
+
     def line_parser(self, response):
+
+        # item['line_name'] = response.xpath('//div/h4/text()').extract()
+        # item['line_number'] = response.xpath('//div/h4/span/text()').extract()
+
+        line_name = response.xpath('//div/h4/text()').extract()
+        line_number = response.xpath('//div/h4/span/text()').extract()
+
+        link_node_list = response.xpath('//table[@class="tablaParadas"]/tbody/tr/td[1]/a')
+
+        for index, stop_link in enumerate(link_node_list):
+
+            new_item_loader = PracticaItemLoader(item=Practica1Item(), response=response,
+                                                 copy_from=response.meta['item'])
+
+            station_name = stop_link.xpath('text()').extract_first()
+            new_item_loader.add_value('station_name', station_name)
+            new_item_loader.add_value('position_in_line', str(index+1))
+            new_item_loader.add_value('line_name', line_name)
+            new_item_loader.add_value('line_number', line_number)
+
+            stop_link_url = stop_link.xpath('@href').extract_first()
+            request = response.follow(stop_link_url, callback=self.stop_parser)
+            request.meta['item'] = new_item_loader
+            yield request
+
+
+    def stop_parser(self, response):
         item_loader = PracticaItemLoader(item=Practica1Item(), response=response, copy_from=response.meta['item'])
 
-        self.log("[line_parser] -->  current item ")
+        # self.log("[line_parser] -->  current item ")
 
         return item_loader.load_item()  # cambiar por la request oportuna
