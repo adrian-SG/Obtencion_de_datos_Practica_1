@@ -138,7 +138,7 @@ class FindstationdataSpider(scrapy.Spider):
             new_item_loader.add_value('line_number', line_number)
 
             stop_link_url = stop_link.xpath('@href').extract_first()
-            request = response.follow(stop_link_url, callback=self.stop_parser)
+            request = response.follow(stop_link_url, callback=self.parse_station, dont_filter=True)
             request.meta['item'] = new_item_loader
             yield request
 
@@ -149,3 +149,19 @@ class FindstationdataSpider(scrapy.Spider):
         # self.log("[line_parser] -->  current item ")
 
         return item_loader.load_item()  # cambiar por la request oportuna
+
+    def parse_station(self, response):
+        item_loader = PracticaItemLoader(item=Practica1Item(), response=response, copy_from=response.meta['item'])
+
+        accesses_xpath = "//*[@id='colCentro']/div[4]/div[2]/p/text()"
+        accesses = response.xpath(accesses_xpath).extract()
+
+        accessible = 'True' if " Estación accesible" in accesses else 'False'
+        elevator = 'True' if " Estación con ascensor" in accesses else 'False'
+        escalator = 'True' if " Estación con escaleras mecánicas" in accesses else 'False'
+
+        item_loader.add_value('accessible', accessible)
+        item_loader.add_value('elevator', elevator)
+        item_loader.add_value('escalator', escalator)
+
+        yield item_loader.load_item()
