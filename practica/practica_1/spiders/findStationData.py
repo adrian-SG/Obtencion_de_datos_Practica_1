@@ -112,10 +112,6 @@ class FindstationdataSpider(scrapy.Spider):
 
             yield request
 
-        # TODO: Completar revisando como parsear lo que necesitamos
-
-
-
     def line_parser(self, response):
 
         # item['line_name'] = response.xpath('//div/h4/text()').extract()
@@ -142,13 +138,6 @@ class FindstationdataSpider(scrapy.Spider):
             request.meta['item'] = new_item_loader
             yield request
 
-
-    def stop_parser(self, response):
-        item_loader = PracticaItemLoader(item=Practica1Item(), response=response, copy_from=response.meta['item'])
-
-        # self.log("[line_parser] -->  current item ")
-
-        return item_loader.load_item()  # cambiar por la request oportuna
 
     def parse_station(self, response):
         item_loader = PracticaItemLoader(item=Practica1Item(), response=response, copy_from=response.meta['item'])

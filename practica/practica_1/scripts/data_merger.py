@@ -3,8 +3,15 @@ import os
 import re
 from unicodedata import normalize
 
+from practica.practica_1.scripts import spider_runner
+
 
 # Elimina las tildes sin quitar las de la ennes
+METRO_DATA_PATH = '/../data/stops_metro.txt'
+SCRAP_DIR_REL_PATH = '/../../results/scrap/'
+MERGE_REL_PATH = '../../results/merge/'
+
+
 def clean_string(string):
     # -> NFD y eliminar diacríticos
     string = re.sub(
@@ -26,7 +33,7 @@ def sorting_criteria(line_num, line_position):
 
 
 def load_and_filter_metro_data():
-    with open(get_scripts_dir_path() + '/../data/stops_metro.txt', encoding='utf-8-sig') as metro_data: # TODO: rutas resultados (scrap, merge)
+    with open(get_scripts_dir_path() + METRO_DATA_PATH, encoding='utf-8-sig') as metro_data:
         metro_dict = list()
         metro_dict_aux = list()
 
@@ -46,8 +53,8 @@ def load_and_filter_metro_data():
         return metro_dict
 
 
-def load_and_clean_scrap_data():
-    with open(get_scripts_dir_path() + '/../data/result_scrapy_ex.csv', encoding='utf-8-sig') as scrapy_metro_data:  # TODO: rutas resultados (scrap, merge)
+def load_and_clean_scrap_data(scrap_file='scrap_result_1.csv'):
+    with open(get_scripts_dir_path() + SCRAP_DIR_REL_PATH + scrap_file, encoding='utf-8-sig') as scrapy_metro_data:
         scrapy_metro_dict = list()
 
         dict_reader = csv.DictReader(scrapy_metro_data)
@@ -60,11 +67,11 @@ def load_and_clean_scrap_data():
             scrapy_metro_dict.append(aux_dict)
         return scrapy_metro_dict
 
-def main():
+def main(scrap_file='scrap_result_1.csv'):
     scripts_dir_path = get_scripts_dir_path()
 
     metro_dict = load_and_filter_metro_data()
-    scrapy_metro_dict = load_and_clean_scrap_data()
+    scrapy_metro_dict = load_and_clean_scrap_data(scrap_file)
 
 
     # TODO Si hiciese falta, normalizar nombres eliminando todo tipo de prefijos espacios etc y ordenando palabras
@@ -93,8 +100,12 @@ def main():
             [aux.update({key: None}) for key in scrap_fields]
             metro_row.update(aux)
 
+    merge_results_path = scripts_dir_path + '/' + MERGE_REL_PATH
+    default_result_filename = 'merge_result_1.csv'
+    result_filename = spider_runner.get_next_filename(default_result_filename.replace('1', '*'),  merge_results_path)
+    merge_result_uri = merge_results_path + result_filename
 
-    with open(scripts_dir_path + '/../merge_results/restult_test_1.csv', 'wt', encoding='utf-8-sig') as target_file:  # TODO: rutas resultados (scrap, merge)
+    with open(merge_result_uri, 'wt', encoding='utf-8-sig') as target_file:
 
         field_names = metro_fields + scrap_fields
         writer = csv.DictWriter(target_file, field_names)
