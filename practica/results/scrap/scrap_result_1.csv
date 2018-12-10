@@ -1,347 +1,347 @@
 accessible,elevator,escalator,line_name,line_number,position_in_line,station_name,transport_name
-False,False,False, Argüelles-Pinar de Chamartín,4,2,San Bernardo,METRO
-True,True,True, Pinar de Chamartín-Valdecarros,1,1,Pinar de Chamartín,METRO
-False,False,False, Argüelles-Pinar de Chamartín,4,3,Bilbao,METRO
-True,False,False, Colonia Jardín-Estación de Aravaca,2,3,Colonia de los Ángeles,METRO LIGERO
-True,False,False, Colonia Jardín-Estación de Aravaca,2,2,Prado de la Vega,METRO LIGERO
-True,True,True, Argüelles-Pinar de Chamartín,4,1,Argüelles,METRO
-True,True,True, Colonia Jardín-Estación de Aravaca,2,1,Colonia Jardín,METRO LIGERO
-False,False,False, Las Rosas-Cuatro Caminos,2,17,San Bernardo,METRO
-False,False,False, Las Rosas-Cuatro Caminos,2,15,Santo Domingo,METRO
-True,True,True, Argüelles-Pinar de Chamartín,4,19,San Lorenzo,METRO
-True,True,True, Las Rosas-Cuatro Caminos,2,20,Cuatro Caminos,METRO
-True,True,True, Las Rosas-Cuatro Caminos,2,19,Canal,METRO
-False,False,False, Las Rosas-Cuatro Caminos,2,18,Quevedo,METRO
-False,False,True, Las Rosas-Cuatro Caminos,2,16,Noviciado,METRO
-True,True,True, MetroSur,12,27,Leganés Central,METRO
-True,True,True, MetroSur,12,24,Julian Besteiro,METRO
-True,True,True, Alameda de Osuna-Casa de Campo,5,32, Casa de Campo,METRO
-True,True,True, MetroSur,12,25,Casa del Reloj,METRO
-True,True,True, MetroSur,12,28,San Nicasio,METRO
-True,True,True, MetroSur,12,26,Hospital Severo Ochoa,METRO
-True,True,True, Paco de Lucía-Arganda del Rey,9,28,La Poveda,METRO
-True,True,True, Paco de Lucía-Arganda del Rey,9,29,Arganda del Rey,METRO
-False,False,True, Circular,6,27,Alto de Extremadura,METRO
-True,True,False, Circular,6,28,Lucero,METRO
-True,True,True, Circular,6,25,Príncipe Pío,METRO
-True,True,True, Circular,6,24,Argüelles,METRO
-False,False,True, Circular,6,26,Puerta del Ángel,METRO
-True,True,True, Circular,6,23,Moncloa,METRO
-True,True,True, Circular,6,22,Ciudad Universitaria,METRO
-False,False,True, Circular,6,21,Vicente Aleixandre,METRO
-True,True,True, Circular,6,19,Cuatro Caminos,METRO
-True,True,True, Circular,6,20,Guzmán el Bueno,METRO
-True,True,True, Circular,6,18,Nuevos Ministerios,METRO
-False,False,True, Circular,6,17,República Argentina,METRO
-False,False,True, Circular,6,16,Avenida de América,METRO
-False,False,True, Circular,6,14,Manuel Becerra,METRO
-False,False,True, Circular,6,15,Diego de León,METRO
-False,False,True, Circular,6,13,O'Donnell,METRO
-True,True,True, Circular,6,11,Conde de Casal,METRO
-True,True,False, Plaza Elíptica-La Fortuna,11,7,La Fortuna,METRO
-True,True,True, Circular,6,12,Sáinz de Baranda,METRO
-True,True,True, Plaza Elíptica-La Fortuna,11,6,La Peseta,METRO
-True,False,True, Circular,6,10,Pacífico,METRO
-False,False,True, Circular,6,9,Méndez Álvaro,METRO
-True,True,True, Circular,6,8, Arganzuela - Planetario,METRO
-True,True,True, Circular,6,7,Legazpi,METRO
-True,True,True, Plaza Elíptica-La Fortuna,11,1,Plaza Elíptica,METRO
-True,True,True, Plaza Elíptica-La Fortuna,11,3,Pan Bendito,METRO
-True,True,True, Plaza Elíptica-La Fortuna,11,4,San Francisco,METRO
-True,True,True, Plaza Elíptica-La Fortuna,11,5,Carabanchel Alto,METRO
-True,False,True, Circular,6,6,Usera,METRO
-True,True,True, Circular,6,5,Plaza Elíptica,METRO
-True,True,True, Plaza Elíptica-La Fortuna,11,2,Abrantes,METRO
-False,False,True, Circular,6,4,Opañel,METRO
-False,False,True, Circular,6,3,Oporto,METRO
-True,True,True, MetroSur,12,23,El Carrascal,METRO
-True,True,True, MetroSur,12,21,Los Espartales,METRO
-True,True,True, MetroSur,12,22,El Bercial,METRO
-True,False,True, Circular,6,1,Laguna,METRO
-True,True,True, Circular,6,2,Carpetana,METRO
-True,True,True, Hospital del Henares-Pitis,7,28,Avenida de la Ilustración,METRO
-True,True,True, Alameda de Osuna-Casa de Campo,5,28, Eugenia de Montijo,METRO
-True,False,False, Alameda de Osuna-Casa de Campo,5,30,Empalme,METRO
-True,True,True, MetroSur,12,20,El Casar,METRO
-True,True,True, Hospital del Henares-Pitis,7,30,Pitis,METRO
-True,True,True, Hospital del Henares-Pitis,7,29,Lacoma,METRO
-True,True,True, Alameda de Osuna-Casa de Campo,5,29,Aluche,METRO
-False,False,False, Alameda de Osuna-Casa de Campo,5,31,Campamento,METRO
-True,True,True, Paco de Lucía-Arganda del Rey,9,27,Rivas Vaciamadrid,METRO
-True,True,True, Paco de Lucía-Arganda del Rey,9,25,Rivas Urbanizaciones,METRO
-True,True,True, Paco de Lucía-Arganda del Rey,9,24,Puerta de Arganda,METRO
-True,True,True, Paco de Lucía-Arganda del Rey,9,26,Rivas Futura,METRO
-True,True,True, Hospital Infanta Sofía-Puerta del Sur,10,30,Joaquín Vilumbrales,METRO
-True,True,True, Hospital Infanta Sofía-Puerta del Sur,10,31,Puerta del Sur,METRO
-True,True,True, Hospital Infanta Sofía-Puerta del Sur,10,28,Aviación Española,METRO
-True,True,True, Hospital Infanta Sofía-Puerta del Sur,10,29,Cuatro Vientos,METRO
-True,True,True, MetroSur,12,17,Alonso de Mendoza,METRO
-True,True,True, MetroSur,12,19, Juan de la Cierva,METRO
-True,True,True, MetroSur,12,16,Conservatorio,METRO
-True,True,True, MetroSur,12,18,Getafe Central,METRO
-False,False,False, Alameda de Osuna-Casa de Campo,5,26,Vista Alegre,METRO
-False,False,False, Alameda de Osuna-Casa de Campo,5,27,Carabanchel,METRO
-True,True,True, Hospital del Henares-Pitis,7,27,Peñagrande,METRO
-False,False,True, Alameda de Osuna-Casa de Campo,5,25,Oporto,METRO
-True,True,True, Hospital del Henares-Pitis,7,26,Antonio Machado,METRO
-True,True,True, Hospital del Henares-Pitis,7,25,Valdezarza,METRO
-False,False,False, Alameda de Osuna-Casa de Campo,5,24,Urgel,METRO
-True,True,True, Hospital del Henares-Pitis,7,24,Francos Rodríguez,METRO
-True,True,True, Paco de Lucía-Arganda del Rey,9,22,Vicálvaro,METRO
-True,True,True, Hospital Infanta Sofía-Puerta del Sur,10,27,Colonia Jardín,METRO
-False,False,True, Paco de Lucía-Arganda del Rey,9,20,Pavones,METRO
-True,True,True, Paco de Lucía-Arganda del Rey,9,21,Valdebernardo,METRO
-True,True,True, Paco de Lucía-Arganda del Rey,9,23,San Cipriano,METRO
-True,True,False, Hospital Infanta Sofía-Puerta del Sur,10,24, Lago,METRO
-True,True,False, Hospital Infanta Sofía-Puerta del Sur,10,25,Batán,METRO
-True,True,True, Hospital Infanta Sofía-Puerta del Sur,10,26,Casa de Campo,METRO
-True,True,True, MetroSur,12,14,Parque de los Estados,METRO
-True,True,True, MetroSur,12,13,Fuenlabrada Central,METRO
-True,True,True, Hospital del Henares-Pitis,7,23,Guzmán el Bueno,METRO
-True,True,True, MetroSur,12,15,Arroyo Culebro,METRO
-True,True,True, MetroSur,12,12,Parque Europa,METRO
-True,True,True, Hospital del Henares-Pitis,7,22,Islas Filipinas,METRO
-True,True,True, Hospital del Henares-Pitis,7,20,Alonso Cano,METRO
-True,True,True, Hospital del Henares-Pitis,7,21,Canal,METRO
-False,False,False, Alameda de Osuna-Casa de Campo,5,21,Acacias,METRO
-False,False,True, Paco de Lucía-Arganda del Rey,9,19,Artilleros,METRO
-False,False,False, Alameda de Osuna-Casa de Campo,5,20,Puerta de Toledo,METRO
-False,False,False, Alameda de Osuna-Casa de Campo,5,23,Marqués de Vadillo,METRO
-True,True,True, Alameda de Osuna-Casa de Campo,5,22, Pirámides,METRO
-True,True,True, Paco de Lucía-Arganda del Rey,9,16,Sainz de Baranda,METRO
-False,False,True, Paco de Lucía-Arganda del Rey,9,17,Estrella,METRO
-False,False,True, Paco de Lucía-Arganda del Rey,9,18,Vinateros,METRO
-True,True,True, Hospital Infanta Sofía-Puerta del Sur,10,23,Príncipe Pío,METRO
-False,False,True, Hospital Infanta Sofía-Puerta del Sur,10,21,Tribunal,METRO
-True,True,True, Hospital Infanta Sofía-Puerta del Sur,10,22,Plaza de España,METRO
-True,True,True, MetroSur,12,11,Hospital de Fuenlabrada,METRO
-False,False,True, Hospital Infanta Sofía-Puerta del Sur,10,20,Alonso Martínez,METRO
-True,True,True, MetroSur,12,10,Loranca,METRO
-True,True,True, MetroSur,12,9,Manuela Malasaña,METRO
-True,True,True, MetroSur,12,8,Hospital de Móstoles,METRO
-True,True,True, Hospital del Henares-Pitis,7,19,Gregorio Marañón,METRO
-True,True,True, Alameda de Osuna-Casa de Campo,5,17,Callao,METRO
-False,False,True, Hospital del Henares-Pitis,7,16,Parque de las Avenidas,METRO
-False,False,True, Hospital del Henares-Pitis,7,17,Cartagena,METRO
-True,True,True, Alameda de Osuna-Casa de Campo,5,18,Ópera,METRO
-False,False,True, Alameda de Osuna-Casa de Campo,5,19,La Latina,METRO
-False,False,True, Hospital del Henares-Pitis,7,18,Avenida de América,METRO
-False,False,True, Alameda de Osuna-Casa de Campo,5,16,Gran Vía,METRO
-True,True,True, Hospital Infanta Sofía-Puerta del Sur,10,19,Gregorio Marañón,METRO
-False,False,True, Paco de Lucía-Arganda del Rey,9,12,Avenida de América,METRO
-True,True,True, Hospital Infanta Sofía-Puerta del Sur,10,18,Nuevos Ministerios,METRO
-False,False,True, Paco de Lucía-Arganda del Rey,9,14,Príncipe de Vergara,METRO
-False,False,True, Paco de Lucía-Arganda del Rey,9,15, Ibiza,METRO
-False,False,True, Paco de Lucía-Arganda del Rey,9,13,Núñez de Balboa,METRO
-False,False,False, Hospital Infanta Sofía-Puerta del Sur,10,17,Santiago Bernabéu,METRO
-False,False,True, Hospital Infanta Sofía-Puerta del Sur,10,16,Cuzco,METRO
-True,True,True, MetroSur,12,6,Móstoles Central,METRO
-False,False,True, Hospital del Henares-Pitis,7,13,Ascao,METRO
-False,False,True, Hospital del Henares-Pitis,7,15,Barrio de la Concepción,METRO
-True,True,True, Hospital del Henares-Pitis,7,14,Pueblo Nuevo,METRO
-True,True,True, MetroSur,12,5,Universidad Rey Juan Carlos,METRO
-True,True,True, MetroSur,12,7,Pradillo,METRO
-True,True,True, MetroSur,12,4,Parque Oeste,METRO
-False,False,True, Hospital del Henares-Pitis,7,12,García Noblejas,METRO
-False,False,True, Paco de Lucía-Arganda del Rey,9,11,Cruz del Rayo,METRO
-False,False,True, Alameda de Osuna-Casa de Campo,5,15,Chueca,METRO
-False,False,False, Alameda de Osuna-Casa de Campo,5,13,Rubén Darío,METRO
-False,False,True, Paco de Lucía-Arganda del Rey,9,10,Concha Espina,METRO
-True,True,True, Paco de Lucía-Arganda del Rey,9,9,Colombia,METRO
-True,True,True, Hospital Infanta Sofía-Puerta del Sur,10,14,Chamartín,METRO
-True,True,True, Hospital Infanta Sofía-Puerta del Sur,10,15,Plaza de Castilla,METRO
-True,True,True, MetroSur,12,3,Alcorcón Central,METRO
-False,False,True, Hospital Infanta Sofía-Puerta del Sur,10,12,Fuencarral,METRO
-False,False,True, Hospital del Henares-Pitis,7,10,San Blas,METRO
-False,False,True, Hospital del Henares-Pitis,7,11,Simancas,METRO
-True,True,True, MetroSur,12,1,Puerta del Sur,METRO
-False,False,True, Hospital Infanta Sofía-Puerta del Sur,10,13,Begoña,METRO
-True,True,True, MetroSur,12,2,Parque Lisboa,METRO
-False,False,True, Alameda de Osuna-Casa de Campo,5,14,Alonso Martínez,METRO
-False,False,True, Alameda de Osuna-Casa de Campo,5,12,Núñez de Balboa,METRO
-False,False,True, Alameda de Osuna-Casa de Campo,5,11,Diego de León,METRO
-False,False,True, Hospital del Henares-Pitis,7,9,Las Musas,METRO
-True,True,True, Hospital del Henares-Pitis,7,8,Estadio Metropolitano,METRO
-False,False,True, Paco de Lucía-Arganda del Rey,9,8,Pío XII,METRO
-False,False,False, Alameda de Osuna-Casa de Campo,5,10,Ventas,METRO
-False,False,True, Alameda de Osuna-Casa de Campo,5,9,El Carmen,METRO
-False,False,False, Alameda de Osuna-Casa de Campo,5,8,Quintana,METRO
-False,False,True, Paco de Lucía-Arganda del Rey,9,7,Duque de Pastrana,METRO
-True,True,True, Paco de Lucía-Arganda del Rey,9,6,Plaza de Castilla,METRO
-True,True,True, Hospital Infanta Sofía-Puerta del Sur,10,11,Tres Olivos,METRO
-False,False,True, Paco de Lucía-Arganda del Rey,9,4,Barrio del Pilar,METRO
-False,False,True, Paco de Lucía-Arganda del Rey,9,5,Ventilla,METRO
-True,True,True, Hospital Infanta Sofía-Puerta del Sur,10,10,Montecarmelo,METRO
-True,True,True, Hospital del Henares-Pitis,7,5,La Rambla,METRO
-True,True,True, Hospital del Henares-Pitis,7,7,Barrio del Puerto,METRO
-True,True,True, Hospital Infanta Sofía-Puerta del Sur,10,8,Rda. de la Comunicación,METRO
-True,True,True, Hospital del Henares-Pitis,7,4,San Fernando,METRO
-True,True,True, Hospital del Henares-Pitis,7,6,Coslada Central,METRO
-True,True,True, Alameda de Osuna-Casa de Campo,5,7,Pueblo Nuevo,METRO
-True,True,True, Hospital Infanta Sofía-Puerta del Sur,10,9,Las Tablas,METRO
-False,False,False, Alameda de Osuna-Casa de Campo,5,6,Ciudad Lineal,METRO
-False,False,True, Paco de Lucía-Arganda del Rey,9,3,Herrera Oria,METRO
-True,True,True, Hospital Infanta Sofía-Puerta del Sur,10,6,La Moraleja,METRO
-True,True,True, Paco de Lucía-Arganda del Rey,9,1,Paco de Lucía,METRO
-False,False,True, Alameda de Osuna-Casa de Campo,5,4,Torre Arias,METRO
-True,True,True, Hospital Infanta Sofía-Puerta del Sur,10,7,La Granja,METRO
-True,True,True, Paco de Lucía-Arganda del Rey,9,2,Mirasierra,METRO
-False,False,True, Alameda de Osuna-Casa de Campo,5,5,Suanzes,METRO
-True,True,True, Hospital Infanta Sofía-Puerta del Sur,10,5,Marqués de la Valdavia,METRO
-True,True,True, Hospital Infanta Sofía-Puerta del Sur,10,4,Manuel de Falla,METRO
-True,True,True, Nuevos Ministerios-Aeropuerto T4,8,5,Feria de Madrid,METRO
-True,True,True, Nuevos Ministerios-Aeropuerto T4,8,6,Aeropuerto T1-T2-T3,METRO
-True,True,True, Nuevos Ministerios-Aeropuerto T4,8,7,Barajas,METRO
-True,True,True, Hospital del Henares-Pitis,7,3,Jarama,METRO
-True,True,True, Hospital del Henares-Pitis,7,2,Henares,METRO
-True,True,True, Nuevos Ministerios-Aeropuerto T4,8,8,Aeropuerto T4,METRO
-True,True,True, Hospital del Henares-Pitis,7,1,Hospital del Henares,METRO
-True,True,True, Nuevos Ministerios-Aeropuerto T4,8,4,Mar de Cristal,METRO
-True,True,True, Hospital Infanta Sofía-Puerta del Sur,10,3,Baunatal,METRO
-False,False,True, Alameda de Osuna-Casa de Campo,5,3,Canillejas,METRO
-True,True,True, Alameda de Osuna-Casa de Campo,5,1,Alameda de Osuna,METRO
-True,True,True, Hospital Infanta Sofía-Puerta del Sur,10,2,Reyes Católicos,METRO
-True,True,True, Hospital Infanta Sofía-Puerta del Sur,10,1,Hospital Infanta Sofía,METRO
-True,True,True, Alameda de Osuna-Casa de Campo,5,2,El Capricho,METRO
-True,True,True, Nuevos Ministerios-Aeropuerto T4,8,3,Pinar del Rey,METRO
+True,True,True, Pinar de Chamartín-Valdecarros,1,33,Valdecarros,METRO
 True,True,True, Pinar de Chamartín-Valdecarros,1,31,La Gavia,METRO
 True,True,True, Pinar de Chamartín-Valdecarros,1,32,Las Suertes,METRO
-True,True,True, Nuevos Ministerios-Aeropuerto T4,8,2,Colombia,METRO
-True,True,True, Pinar de Chamartín-Valdecarros,1,33,Valdecarros,METRO
-True,True,True, Nuevos Ministerios-Aeropuerto T4,8,1,Nuevos Ministerios,METRO
-True,True,True, Ópera-Príncipe Pío,R,2,Príncipe Pío,METRO
-True,True,True, Ópera-Príncipe Pío,R,1,Ópera,METRO
-True,True,True, Pinar de Chamartín-Valdecarros,1,29,Villa de Vallecas,METRO
-True,True,True, Pinar de Chamartín-Valdecarros,1,26,Alto del Arenal,METRO
-True,True,True, Pinar de Chamartín-Valdecarros,1,30,Congosto,METRO
-False,False,True, Pinar de Chamartín-Valdecarros,1,25,Buenos Aires,METRO
 True,True,True, Pinar de Chamartín-Valdecarros,1,28, Sierra de Guadalupe,METRO
-True,True,True, Argüelles-Pinar de Chamartín,4,23,Pinar de Chamartín,METRO
-True,True,True, Pinar de Chamartín-Valdecarros,1,27,Miguel Hernández,METRO
-False,False,True, Pinar de Chamartín-Valdecarros,1,24,Portazgo,METRO
-True,False,True, Pinar de Chamartín-Valdecarros,1,21,Pacífico,METRO
-True,True,True, Argüelles-Pinar de Chamartín,4,21,Hortaleza,METRO
-False,False,True, Pinar de Chamartín-Valdecarros,1,23,Nueva Numancia,METRO
-False,False,False, Pinar de Chamartín-Valdecarros,1,22,Puente de Vallecas,METRO
-False,False,False, Pinar de Chamartín-Valdecarros,1,20,Menéndez Pelayo,METRO
-True,True,True, Argüelles-Pinar de Chamartín,4,20,Parque de Santa María,METRO
-True,True,True, Argüelles-Pinar de Chamartín,4,22,Manoteras,METRO
-True,True,True, Argüelles-Pinar de Chamartín,4,18,Mar de Cristal,METRO
-True,True,True, Argüelles-Pinar de Chamartín,4,17,Canillas,METRO
-False,False,False, Tranvia de Parla (Línea Circular),4,19,Venus Sur (vuelta),METRO LIGERO
-True,False,False, Tranvia de Parla (Línea Circular),4,16,Tierra Norte (ida),METRO LIGERO
-True,False,False, Tranvia de Parla (Línea Circular),4,15,Avenida Sistema Solar,METRO LIGERO
-False,False,False, Tranvia de Parla (Línea Circular),4,18,Venus Norte (ida),METRO LIGERO
-False,False,True, Argüelles-Pinar de Chamartín,4,16,Esperanza,METRO
-False,False,False, Tranvia de Parla (Línea Circular),4,17,Tierra Sur (vuelta),METRO LIGERO
-True,True,True, Villaverde Alto-Moncloa,3,18,Moncloa,METRO
-False,False,False, Pinar de Chamartín-Valdecarros,1,17,Antón Martín,METRO
-False,False,False, Pinar de Chamartín-Valdecarros,1,16,Tirso de Molina,METRO
-False,False,False, Pinar de Chamartín-Valdecarros,1,18,Estación del Arte,METRO
-True,True,True, Las Rosas-Cuatro Caminos,2,13, Sol,METRO
+True,True,True, Nuevos Ministerios-Aeropuerto T4,8,6,Aeropuerto T1-T2-T3,METRO
+True,True,True, Pinar de Chamartín-Valdecarros,1,29,Villa de Vallecas,METRO
+True,True,True, Pinar de Chamartín-Valdecarros,1,30,Congosto,METRO
+True,True,True, Hospital Infanta Sofía-Puerta del Sur,10,3,Baunatal,METRO
 True,True,True, Las Rosas-Cuatro Caminos,2,14,Ópera,METRO
-False,False,False, Las Rosas-Cuatro Caminos,2,12,Sevilla,METRO
-True,True,True, Pinar de Chamartín-Valdecarros,1,19,Atocha Renfe,METRO
-False,False,False, Las Rosas-Cuatro Caminos,2,11,Banco de España,METRO
-False,False,True, Argüelles-Pinar de Chamartín,4,12,Prosperidad,METRO
+False,False,False, Las Rosas-Cuatro Caminos,2,18,Quevedo,METRO
+True,True,True, Las Rosas-Cuatro Caminos,2,20,Cuatro Caminos,METRO
+True,True,True, Las Rosas-Cuatro Caminos,2,19,Canal,METRO
+True,True,True, Circular,6,11,Conde de Casal,METRO
+False,False,True, Circular,6,15,Diego de León,METRO
+False,False,True, Circular,6,14,Manuel Becerra,METRO
+True,False,False, Pinar de Chamartín-Las Tablas,1,5,Álvarez de Villaamil,METRO LIGERO
+True,False,False, Colonia Jardín-Puerta de Boadilla,3,16,Puerta de Boadilla,METRO LIGERO
+False,False,False, Tranvia de Parla (Línea Circular),4,19,Venus Sur (vuelta),METRO LIGERO
 True,False,False, Tranvia de Parla (Línea Circular),4,14,Parque Parla Este,METRO LIGERO
-True,False,False, Tranvia de Parla (Línea Circular),4,12,Reyes Católicos,METRO LIGERO
-False,False,True, Argüelles-Pinar de Chamartín,4,13,Alfonso XIII,METRO
-False,False,False, Las Rosas-Cuatro Caminos,2,10,Retiro,METRO
-False,False,True, Argüelles-Pinar de Chamartín,4,15,Arturo Soria,METRO
 True,False,False, Tranvia de Parla (Línea Circular),4,13,Isabel II,METRO LIGERO
-False,False,True, Argüelles-Pinar de Chamartín,4,14,Avenida de la Paz,METRO
+False,False,False, Tranvia de Parla (Línea Circular),4,18,Venus Norte (ida),METRO LIGERO
+True,True,True, Alameda de Osuna-Casa de Campo,5,32, Casa de Campo,METRO
+False,False,False, Tranvia de Parla (Línea Circular),4,17,Tierra Sur (vuelta),METRO LIGERO
+True,False,False, Tranvia de Parla (Línea Circular),4,15,Avenida Sistema Solar,METRO LIGERO
+True,False,False, Tranvia de Parla (Línea Circular),4,16,Tierra Norte (ida),METRO LIGERO
+False,False,False, Alameda de Osuna-Casa de Campo,5,31,Campamento,METRO
+True,False,False, Alameda de Osuna-Casa de Campo,5,30,Empalme,METRO
+True,True,True, Alameda de Osuna-Casa de Campo,5,29,Aluche,METRO
+True,True,True, Alameda de Osuna-Casa de Campo,5,28, Eugenia de Montijo,METRO
+True,False,False, Tranvia de Parla (Línea Circular),4,12,Reyes Católicos,METRO LIGERO
 True,False,False, Tranvia de Parla (Línea Circular),4,11,Bulevar Sur,METRO LIGERO
 True,False,False, Tranvia de Parla (Línea Circular),4,10,Iglesia Centro,METRO LIGERO
-True,True,True, Villaverde Alto-Moncloa,3,14,Callao,METRO
-True,True,True, Villaverde Alto-Moncloa,3,15,Plaza de España,METRO
-True,False,False, Colonia Jardín-Puerta de Boadilla,3,16,Puerta de Boadilla,METRO LIGERO
-True,True,True, Villaverde Alto-Moncloa,3,17,Argüelles,METRO
-True,True,False, Villaverde Alto-Moncloa,3,16,Ventura Rodríguez,METRO
+False,False,False, Alameda de Osuna-Casa de Campo,5,27,Carabanchel,METRO
+False,False,False, Alameda de Osuna-Casa de Campo,5,26,Vista Alegre,METRO
+False,False,True, Alameda de Osuna-Casa de Campo,5,25,Oporto,METRO
+False,False,False, Alameda de Osuna-Casa de Campo,5,24,Urgel,METRO
+True,True,True, MetroSur,12,28,San Nicasio,METRO
+True,False,False, Tranvia de Parla (Línea Circular),4,8,La Ballena,METRO LIGERO
+True,False,False, Tranvia de Parla (Línea Circular),4,7,Julio Romero de Torres,METRO LIGERO
+True,False,False, Tranvia de Parla (Línea Circular),4,9,Parla Centro - Bulevar Norte,METRO LIGERO
+True,False,False, Tranvia de Parla (Línea Circular),4,6,Plaza de Toros,METRO LIGERO
+True,False,False, Tranvia de Parla (Línea Circular),4,5,Polígono Industrial Ciudad de Parla,METRO LIGERO
+False,False,False, Alameda de Osuna-Casa de Campo,5,23,Marqués de Vadillo,METRO
+True,True,True, Alameda de Osuna-Casa de Campo,5,22, Pirámides,METRO
+False,False,False, Alameda de Osuna-Casa de Campo,5,21,Acacias,METRO
+True,True,True, MetroSur,12,27,Leganés Central,METRO
+False,False,False, Alameda de Osuna-Casa de Campo,5,20,Puerta de Toledo,METRO
+True,True,True, MetroSur,12,25,Casa del Reloj,METRO
+True,True,True, MetroSur,12,26,Hospital Severo Ochoa,METRO
+True,True,True, MetroSur,12,24,Julian Besteiro,METRO
 True,False,False, Colonia Jardín-Puerta de Boadilla,3,15,Infante Don Luis,METRO LIGERO
-False,False,True, Pinar de Chamartín-Valdecarros,1,14,Gran Vía,METRO
-True,True,True, Pinar de Chamartín-Valdecarros,1,15,Sol,METRO
-True,True,False, Las Rosas-Cuatro Caminos,2,8,Goya,METRO
-False,False,False, Pinar de Chamartín-Valdecarros,1,12,Bilbao,METRO
-False,False,True, Las Rosas-Cuatro Caminos,2,9,Príncipe de Vergara,METRO
-False,False,True, Pinar de Chamartín-Valdecarros,1,13,Tribunal,METRO
-False,False,True, Las Rosas-Cuatro Caminos,2,7,Manuel Becerra,METRO
-True,True,True, Las Rosas-Cuatro Caminos,2,5,La Elipa,METRO
-False,False,False, Argüelles-Pinar de Chamartín,4,9,Lista,METRO
-False,False,False, Las Rosas-Cuatro Caminos,2,6,Ventas,METRO
-False,False,True, Argüelles-Pinar de Chamartín,4,11,Avenida de América,METRO
+True,False,False, Tranvia de Parla (Línea Circular),4,3,Jaime I Norte (ida),METRO LIGERO
+True,False,False, Tranvia de Parla (Línea Circular),4,2,Estrella Polar Sur (vuelta),METRO LIGERO
+True,False,False, Tranvia de Parla (Línea Circular),4,1,Estrella Polar Norte (ida),METRO LIGERO
+False,False,True, Alameda de Osuna-Casa de Campo,5,19,La Latina,METRO
+True,True,True, Alameda de Osuna-Casa de Campo,5,17,Callao,METRO
+True,True,True, Alameda de Osuna-Casa de Campo,5,18,Ópera,METRO
+False,False,True, Alameda de Osuna-Casa de Campo,5,16,Gran Vía,METRO
+True,False,False, Tranvia de Parla (Línea Circular),4,4,Jaime I Sur (vuelta),METRO LIGERO
+True,True,True, MetroSur,12,23,El Carrascal,METRO
+True,True,True, MetroSur,12,22,El Bercial,METRO
+True,True,True, MetroSur,12,21,Los Espartales,METRO
+True,True,True, MetroSur,12,20,El Casar,METRO
 True,False,False, Colonia Jardín-Estación de Aravaca,2,12,Berna,METRO LIGERO
-False,False,True, Argüelles-Pinar de Chamartín,4,10,Diego de León,METRO
-True,True,False, Argüelles-Pinar de Chamartín,4,8,Goya,METRO
 True,False,False, Colonia Jardín-Estación de Aravaca,2,13,Estación de Aravaca,METRO LIGERO
 True,True,True, Colonia Jardín-Estación de Aravaca,2,11,Avenida de Europa,METRO LIGERO
-True,False,False, Colonia Jardín-Estación de Aravaca,2,9,Dos Castillas,METRO LIGERO
-True,False,False, Tranvia de Parla (Línea Circular),4,9,Parla Centro - Bulevar Norte,METRO LIGERO
-True,False,False, Tranvia de Parla (Línea Circular),4,7,Julio Romero de Torres,METRO LIGERO
-True,False,False, Tranvia de Parla (Línea Circular),4,8,La Ballena,METRO LIGERO
 True,False,False, Colonia Jardín-Estación de Aravaca,2,10,Campus de Somosaguas,METRO LIGERO
-True,False,False, Tranvia de Parla (Línea Circular),4,5,Polígono Industrial Ciudad de Parla,METRO LIGERO
-True,False,False, Tranvia de Parla (Línea Circular),4,6,Plaza de Toros,METRO LIGERO
-True,True,True, Villaverde Alto-Moncloa,3,13,Sol,METRO
-True,True,False, Villaverde Alto-Moncloa,3,12,Lavapiés,METRO
-True,True,False, Villaverde Alto-Moncloa,3,11,Embajadores,METRO
-True,True,True, Villaverde Alto-Moncloa,3,10,Palos de la Frontera,METRO
 True,False,False, Colonia Jardín-Puerta de Boadilla,3,14,Siglo XXI,METRO LIGERO
 True,False,False, Colonia Jardín-Puerta de Boadilla,3,13,Nuevo Mundo,METRO LIGERO
-True,True,False, Villaverde Alto-Moncloa,3,9,Delicias,METRO
 True,False,False, Colonia Jardín-Puerta de Boadilla,3,12,Boadilla Centro,METRO LIGERO
 True,False,False, Colonia Jardín-Puerta de Boadilla,3,11,Ferial de Boadilla,METRO LIGERO
 True,False,False, Colonia Jardín-Puerta de Boadilla,3,10,Cantabria,METRO LIGERO
-True,False,False, Pinar de Chamartín-Las Tablas,1,9,Las Tablas,METRO LIGERO
-True,True,False, Pinar de Chamartín-Valdecarros,1,11,Iglesia,METRO
-True,True,True, Las Rosas-Cuatro Caminos,2,4,La Almudena,METRO
-False,False,False, Pinar de Chamartín-Valdecarros,1,8,Alvarado,METRO
-True,True,True, Pinar de Chamartín-Valdecarros,1,9,Cuatro Caminos,METRO
-False,False,False, Pinar de Chamartín-Valdecarros,1,10,Ríos Rosas,METRO
-True,True,True, Las Rosas-Cuatro Caminos,2,3,Alsacia,METRO
-True,True,True, Las Rosas-Cuatro Caminos,2,2,Avenida de Guadalajara,METRO
-True,True,True, Las Rosas-Cuatro Caminos,2,1,Las Rosas,METRO
-False,False,True, Argüelles-Pinar de Chamartín,4,4,Alonso Martínez,METRO
-False,False,False, Argüelles-Pinar de Chamartín,4,6,Serrano,METRO
-False,False,False, Argüelles-Pinar de Chamartín,4,7,Velázquez,METRO
-True,False,False, Colonia Jardín-Estación de Aravaca,2,8,Bélgica,METRO LIGERO
-False,False,False, Argüelles-Pinar de Chamartín,4,5,Colón,METRO
+False,False,True, Alameda de Osuna-Casa de Campo,5,15,Chueca,METRO
+False,False,True, Alameda de Osuna-Casa de Campo,5,14,Alonso Martínez,METRO
+False,False,False, Alameda de Osuna-Casa de Campo,5,13,Rubén Darío,METRO
+False,False,True, Alameda de Osuna-Casa de Campo,5,12,Núñez de Balboa,METRO
+True,True,True, MetroSur,12,18,Getafe Central,METRO
+True,True,True, MetroSur,12,19, Juan de la Cierva,METRO
+True,True,True, MetroSur,12,17,Alonso de Mendoza,METRO
+True,True,False, Circular,6,28,Lucero,METRO
+True,False,False, Colonia Jardín-Estación de Aravaca,2,9,Dos Castillas,METRO LIGERO
 True,False,False, Colonia Jardín-Estación de Aravaca,2,7,Pozuelo Oeste,METRO LIGERO
+True,False,False, Colonia Jardín-Estación de Aravaca,2,8,Bélgica,METRO LIGERO
+True,True,True, MetroSur,12,16,Conservatorio,METRO
 False,False,False, Colonia Jardín-Estación de Aravaca,2,6,Somosaguas Centro,METRO LIGERO
 True,True,False, Colonia Jardín-Estación de Aravaca,2,5,Somosaguas Sur,METRO LIGERO
-True,False,False, Colonia Jardín-Estación de Aravaca,2,4,Prado del Rey,METRO LIGERO
-True,False,False, Tranvia de Parla (Línea Circular),4,4,Jaime I Sur (vuelta),METRO LIGERO
-True,False,False, Tranvia de Parla (Línea Circular),4,2,Estrella Polar Sur (vuelta),METRO LIGERO
-True,False,False, Tranvia de Parla (Línea Circular),4,3,Jaime I Norte (ida),METRO LIGERO
-True,False,False, Tranvia de Parla (Línea Circular),4,1,Estrella Polar Norte (ida),METRO LIGERO
-True,False,False, Colonia Jardín-Puerta de Boadilla,3,8,Ventorro del Cano,METRO LIGERO
 True,False,False, Colonia Jardín-Puerta de Boadilla,3,9,Prado del Espino,METRO LIGERO
-True,True,True, Villaverde Alto-Moncloa,3,5,San Fermín - Orcasur,METRO
-True,True,True, Villaverde Alto-Moncloa,3,6,Hospital 12 de Octubre,METRO
 True,True,False, Colonia Jardín-Puerta de Boadilla,3,7,Montepríncipe,METRO LIGERO
-True,True,True, Villaverde Alto-Moncloa,3,7,Almendrales,METRO
-True,True,True, Villaverde Alto-Moncloa,3,8,Legazpi,METRO
-True,True,True, Villaverde Alto-Moncloa,3,4,Ciudad de los Ángeles,METRO
-True,True,True, Pinar de Chamartín-Las Tablas,1,6,Blasco Ibáñez,METRO LIGERO
+True,False,False, Colonia Jardín-Puerta de Boadilla,3,8,Ventorro del Cano,METRO LIGERO
 True,False,False, Colonia Jardín-Puerta de Boadilla,3,5,Cocheras,METRO LIGERO
-True,True,True, Pinar de Chamartín-Las Tablas,1,7,María Tudor,METRO LIGERO
-True,False,False, Pinar de Chamartín-Las Tablas,1,5,Álvarez de Villaamil,METRO LIGERO
-True,False,False, Pinar de Chamartín-Las Tablas,1,8,Palas de Rey,METRO LIGERO
 True,False,False, Colonia Jardín-Puerta de Boadilla,3,6,Retamares,METRO LIGERO
-True,False,False, Pinar de Chamartín-Las Tablas,1,4,Antonio Saura,METRO LIGERO
-False,False,False, Pinar de Chamartín-Valdecarros,1,7,Estrecho,METRO
-False,False,False, Pinar de Chamartín-Valdecarros,1,6,Tetuán,METRO
-True,True,True, Villaverde Alto-Moncloa,3,2,San Cristóbal,METRO
-False,False,False, Pinar de Chamartín-Valdecarros,1,5,Valdeacederas,METRO
-True,True,True, Villaverde Alto-Moncloa,3,3,Villaverde Bajo - Cruce,METRO
-True,True,True, Pinar de Chamartín-Valdecarros,1,4,Plaza de Castilla,METRO
-True,False,False, Colonia Jardín-Puerta de Boadilla,3,4,Ciudad del Cine,METRO LIGERO
-True,True,True, Villaverde Alto-Moncloa,3,1,Villaverde Alto,METRO
+False,False,True, Alameda de Osuna-Casa de Campo,5,11,Diego de León,METRO
+False,False,False, Alameda de Osuna-Casa de Campo,5,10,Ventas,METRO
+False,False,True, Alameda de Osuna-Casa de Campo,5,9,El Carmen,METRO
+False,False,False, Alameda de Osuna-Casa de Campo,5,8,Quintana,METRO
+True,True,True, MetroSur,12,15,Arroyo Culebro,METRO
+True,True,True, MetroSur,12,14,Parque de los Estados,METRO
+True,True,True, MetroSur,12,13,Fuenlabrada Central,METRO
+True,False,False, Pinar de Chamartín-Las Tablas,1,9,Las Tablas,METRO LIGERO
+True,True,True, MetroSur,12,12,Parque Europa,METRO
+True,True,True, Pinar de Chamartín-Las Tablas,1,7,María Tudor,METRO LIGERO
+True,False,False, Pinar de Chamartín-Las Tablas,1,8,Palas de Rey,METRO LIGERO
+False,False,True, Circular,6,26,Puerta del Ángel,METRO
+True,True,True, Circular,6,25,Príncipe Pío,METRO
+True,False,False, Colonia Jardín-Estación de Aravaca,2,4,Prado del Rey,METRO LIGERO
+True,True,True, Circular,6,24,Argüelles,METRO
+True,True,True, Pinar de Chamartín-Las Tablas,1,6,Blasco Ibáñez,METRO LIGERO
+False,False,True, Circular,6,27,Alto de Extremadura,METRO
+True,False,False, Colonia Jardín-Estación de Aravaca,2,3,Colonia de los Ángeles,METRO LIGERO
+True,False,False, Colonia Jardín-Estación de Aravaca,2,2,Prado de la Vega,METRO LIGERO
 True,False,False, Colonia Jardín-Puerta de Boadilla,3,3,José Isbert,METRO LIGERO
-True,True,True, Pinar de Chamartín-Las Tablas,1,3,Virgen del Cortijo,METRO LIGERO
+True,False,False, Colonia Jardín-Puerta de Boadilla,3,4,Ciudad del Cine,METRO LIGERO
+True,True,True, Colonia Jardín-Estación de Aravaca,2,1,Colonia Jardín,METRO LIGERO
 True,False,False, Colonia Jardín-Puerta de Boadilla,3,2,Ciudad de la Imagen,METRO LIGERO
 True,True,True, Colonia Jardín-Puerta de Boadilla,3,1,Colonia Jardín,METRO LIGERO
-True,True,True, Pinar de Chamartín-Las Tablas,1,1,Pinar de Chamartín,METRO LIGERO
+True,True,True, Alameda de Osuna-Casa de Campo,5,7,Pueblo Nuevo,METRO
+True,True,True, MetroSur,12,10,Loranca,METRO
+True,True,True, MetroSur,12,11,Hospital de Fuenlabrada,METRO
+False,False,False, Alameda de Osuna-Casa de Campo,5,6,Ciudad Lineal,METRO
+False,False,True, Alameda de Osuna-Casa de Campo,5,4,Torre Arias,METRO
+False,False,True, Alameda de Osuna-Casa de Campo,5,5,Suanzes,METRO
+True,True,True, MetroSur,12,9,Manuela Malasaña,METRO
+True,True,True, MetroSur,12,8,Hospital de Móstoles,METRO
 True,True,True, Pinar de Chamartín-Las Tablas,1,2,Fuente de la Mora,METRO LIGERO
-True,True,True, Pinar de Chamartín-Valdecarros,1,2,Bambú,METRO
+True,True,True, Pinar de Chamartín-Las Tablas,1,1,Pinar de Chamartín,METRO LIGERO
+True,True,True, Pinar de Chamartín-Las Tablas,1,3,Virgen del Cortijo,METRO LIGERO
+True,False,False, Pinar de Chamartín-Las Tablas,1,4,Antonio Saura,METRO LIGERO
+True,True,True, Circular,6,23,Moncloa,METRO
+True,True,True, Circular,6,22,Ciudad Universitaria,METRO
+False,False,True, Circular,6,21,Vicente Aleixandre,METRO
+True,True,True, Circular,6,20,Guzmán el Bueno,METRO
+True,True,True, Alameda de Osuna-Casa de Campo,5,2,El Capricho,METRO
+True,True,True, Alameda de Osuna-Casa de Campo,5,1,Alameda de Osuna,METRO
+True,True,True, MetroSur,12,7,Pradillo,METRO
+True,True,True, MetroSur,12,6,Móstoles Central,METRO
+False,False,True, Alameda de Osuna-Casa de Campo,5,3,Canillejas,METRO
+True,True,True, MetroSur,12,5,Universidad Rey Juan Carlos,METRO
+True,True,False, Plaza Elíptica-La Fortuna,11,7,La Fortuna,METRO
+False,False,True, Circular,6,17,República Argentina,METRO
+True,True,True, Plaza Elíptica-La Fortuna,11,6,La Peseta,METRO
+True,True,True, Paco de Lucía-Arganda del Rey,9,28,La Poveda,METRO
+True,True,True, Paco de Lucía-Arganda del Rey,9,29,Arganda del Rey,METRO
+True,True,True, MetroSur,12,4,Parque Oeste,METRO
+True,True,True, Circular,6,18,Nuevos Ministerios,METRO
+True,True,True, Circular,6,19,Cuatro Caminos,METRO
+False,False,True, Circular,6,16,Avenida de América,METRO
+True,True,True, Hospital Infanta Sofía-Puerta del Sur,10,31,Puerta del Sur,METRO
+True,True,True, MetroSur,12,3,Alcorcón Central,METRO
+True,True,True, MetroSur,12,1,Puerta del Sur,METRO
+True,True,True, MetroSur,12,2,Parque Lisboa,METRO
+True,True,True, Hospital Infanta Sofía-Puerta del Sur,10,30,Joaquín Vilumbrales,METRO
+True,True,True, Hospital Infanta Sofía-Puerta del Sur,10,28,Aviación Española,METRO
+True,True,True, Hospital Infanta Sofía-Puerta del Sur,10,29,Cuatro Vientos,METRO
+True,True,True, Plaza Elíptica-La Fortuna,11,5,Carabanchel Alto,METRO
+True,True,True, Paco de Lucía-Arganda del Rey,9,27,Rivas Vaciamadrid,METRO
+True,True,True, Plaza Elíptica-La Fortuna,11,4,San Francisco,METRO
+True,True,True, Plaza Elíptica-La Fortuna,11,1,Plaza Elíptica,METRO
+True,True,True, Paco de Lucía-Arganda del Rey,9,25,Rivas Urbanizaciones,METRO
+True,True,True, Plaza Elíptica-La Fortuna,11,2,Abrantes,METRO
+True,True,True, Paco de Lucía-Arganda del Rey,9,26,Rivas Futura,METRO
+True,True,True, Plaza Elíptica-La Fortuna,11,3,Pan Bendito,METRO
+True,True,True, Paco de Lucía-Arganda del Rey,9,24,Puerta de Arganda,METRO
+False,False,True, Circular,6,13,O'Donnell,METRO
+True,True,True, Circular,6,12,Sáinz de Baranda,METRO
+True,True,False, Hospital Infanta Sofía-Puerta del Sur,10,25,Batán,METRO
+True,True,True, Hospital Infanta Sofía-Puerta del Sur,10,26,Casa de Campo,METRO
+True,True,False, Hospital Infanta Sofía-Puerta del Sur,10,24, Lago,METRO
+True,True,True, Hospital Infanta Sofía-Puerta del Sur,10,27,Colonia Jardín,METRO
+True,True,True, Ópera-Príncipe Pío,R,2,Príncipe Pío,METRO
+True,True,True, Ópera-Príncipe Pío,R,1,Ópera,METRO
+True,True,True, Paco de Lucía-Arganda del Rey,9,23,San Cipriano,METRO
+True,True,True, Paco de Lucía-Arganda del Rey,9,22,Vicálvaro,METRO
+True,True,True, Paco de Lucía-Arganda del Rey,9,21,Valdebernardo,METRO
+False,False,True, Paco de Lucía-Arganda del Rey,9,20,Pavones,METRO
+True,False,True, Circular,6,10,Pacífico,METRO
+True,True,True, Circular,6,8, Arganzuela - Planetario,METRO
+False,False,True, Circular,6,9,Méndez Álvaro,METRO
+True,True,True, Hospital del Henares-Pitis,7,30,Pitis,METRO
+False,False,True, Hospital Infanta Sofía-Puerta del Sur,10,20,Alonso Martínez,METRO
+False,False,True, Paco de Lucía-Arganda del Rey,9,19,Artilleros,METRO
+True,True,True, Hospital Infanta Sofía-Puerta del Sur,10,22,Plaza de España,METRO
+True,True,True, Hospital Infanta Sofía-Puerta del Sur,10,23,Príncipe Pío,METRO
+False,False,True, Hospital Infanta Sofía-Puerta del Sur,10,21,Tribunal,METRO
+True,True,True, Hospital del Henares-Pitis,7,28,Avenida de la Ilustración,METRO
+True,True,True, Hospital del Henares-Pitis,7,29,Lacoma,METRO
+True,True,True, Paco de Lucía-Arganda del Rey,9,16,Sainz de Baranda,METRO
+False,False,True, Paco de Lucía-Arganda del Rey,9,17,Estrella,METRO
+False,False,True, Paco de Lucía-Arganda del Rey,9,18,Vinateros,METRO
+False,False,False, Las Rosas-Cuatro Caminos,2,15,Santo Domingo,METRO
+False,False,False, Las Rosas-Cuatro Caminos,2,17,San Bernardo,METRO
+False,False,True, Las Rosas-Cuatro Caminos,2,16,Noviciado,METRO
+True,True,True, Circular,6,7,Legazpi,METRO
+True,False,True, Circular,6,6,Usera,METRO
+False,False,True, Circular,6,4,Opañel,METRO
+True,True,True, Hospital Infanta Sofía-Puerta del Sur,10,19,Gregorio Marañón,METRO
+True,True,True, Circular,6,5,Plaza Elíptica,METRO
+True,True,True, Hospital Infanta Sofía-Puerta del Sur,10,18,Nuevos Ministerios,METRO
+False,False,True, Hospital Infanta Sofía-Puerta del Sur,10,16,Cuzco,METRO
+False,False,False, Hospital Infanta Sofía-Puerta del Sur,10,17,Santiago Bernabéu,METRO
+True,True,True, Hospital del Henares-Pitis,7,27,Peñagrande,METRO
+True,True,True, Hospital del Henares-Pitis,7,26,Antonio Machado,METRO
+False,False,True, Paco de Lucía-Arganda del Rey,9,14,Príncipe de Vergara,METRO
+True,True,True, Hospital del Henares-Pitis,7,24,Francos Rodríguez,METRO
+True,True,True, Hospital del Henares-Pitis,7,25,Valdezarza,METRO
+False,False,True, Paco de Lucía-Arganda del Rey,9,15, Ibiza,METRO
+True,True,True, Las Rosas-Cuatro Caminos,2,13, Sol,METRO
+False,False,True, Paco de Lucía-Arganda del Rey,9,13,Núñez de Balboa,METRO
+False,False,False, Las Rosas-Cuatro Caminos,2,12,Sevilla,METRO
+False,False,False, Las Rosas-Cuatro Caminos,2,11,Banco de España,METRO
+False,False,True, Circular,6,3,Oporto,METRO
+True,True,True, Circular,6,2,Carpetana,METRO
+False,False,False, Las Rosas-Cuatro Caminos,2,10,Retiro,METRO
+False,False,True, Paco de Lucía-Arganda del Rey,9,12,Avenida de América,METRO
+True,False,True, Circular,6,1,Laguna,METRO
+True,True,True, Hospital Infanta Sofía-Puerta del Sur,10,15,Plaza de Castilla,METRO
+False,False,True, Hospital Infanta Sofía-Puerta del Sur,10,13,Begoña,METRO
+True,True,True, Hospital Infanta Sofía-Puerta del Sur,10,14,Chamartín,METRO
+False,False,True, Hospital Infanta Sofía-Puerta del Sur,10,12,Fuencarral,METRO
+True,True,True, Hospital del Henares-Pitis,7,22,Islas Filipinas,METRO
+True,True,True, Hospital del Henares-Pitis,7,23,Guzmán el Bueno,METRO
+False,False,True, Paco de Lucía-Arganda del Rey,9,11,Cruz del Rayo,METRO
+True,True,True, Hospital del Henares-Pitis,7,21,Canal,METRO
+True,True,True, Hospital del Henares-Pitis,7,20,Alonso Cano,METRO
+False,False,True, Paco de Lucía-Arganda del Rey,9,10,Concha Espina,METRO
+True,True,True, Paco de Lucía-Arganda del Rey,9,9,Colombia,METRO
+False,False,True, Las Rosas-Cuatro Caminos,2,9,Príncipe de Vergara,METRO
+True,True,False, Las Rosas-Cuatro Caminos,2,8,Goya,METRO
+False,False,True, Paco de Lucía-Arganda del Rey,9,8,Pío XII,METRO
+False,False,True, Las Rosas-Cuatro Caminos,2,7,Manuel Becerra,METRO
+True,True,True, Hospital Infanta Sofía-Puerta del Sur,10,11,Tres Olivos,METRO
+True,True,True, Las Rosas-Cuatro Caminos,2,5,La Elipa,METRO
+False,False,False, Las Rosas-Cuatro Caminos,2,6,Ventas,METRO
+True,True,True, Hospital Infanta Sofía-Puerta del Sur,10,8,Rda. de la Comunicación,METRO
+True,True,True, Hospital Infanta Sofía-Puerta del Sur,10,10,Montecarmelo,METRO
+True,True,True, Hospital Infanta Sofía-Puerta del Sur,10,9,Las Tablas,METRO
+True,True,True, Hospital del Henares-Pitis,7,19,Gregorio Marañón,METRO
+False,False,True, Hospital del Henares-Pitis,7,18,Avenida de América,METRO
+False,False,True, Hospital del Henares-Pitis,7,16,Parque de las Avenidas,METRO
+False,False,True, Hospital del Henares-Pitis,7,17,Cartagena,METRO
+False,False,True, Paco de Lucía-Arganda del Rey,9,7,Duque de Pastrana,METRO
+True,True,True, Argüelles-Pinar de Chamartín,4,22,Manoteras,METRO
+True,True,True, Argüelles-Pinar de Chamartín,4,23,Pinar de Chamartín,METRO
+True,True,True, Paco de Lucía-Arganda del Rey,9,6,Plaza de Castilla,METRO
+False,False,True, Paco de Lucía-Arganda del Rey,9,5,Ventilla,METRO
+False,False,True, Paco de Lucía-Arganda del Rey,9,4,Barrio del Pilar,METRO
+True,True,True, Las Rosas-Cuatro Caminos,2,4,La Almudena,METRO
+True,True,True, Las Rosas-Cuatro Caminos,2,3,Alsacia,METRO
+True,True,True, Las Rosas-Cuatro Caminos,2,2,Avenida de Guadalajara,METRO
+True,True,True, Hospital Infanta Sofía-Puerta del Sur,10,7,La Granja,METRO
+True,True,True, Las Rosas-Cuatro Caminos,2,1,Las Rosas,METRO
+True,True,True, Hospital Infanta Sofía-Puerta del Sur,10,6,La Moraleja,METRO
+True,True,True, Hospital Infanta Sofía-Puerta del Sur,10,5,Marqués de la Valdavia,METRO
+True,True,True, Hospital Infanta Sofía-Puerta del Sur,10,4,Manuel de Falla,METRO
+False,False,True, Hospital del Henares-Pitis,7,15,Barrio de la Concepción,METRO
+True,True,True, Hospital del Henares-Pitis,7,14,Pueblo Nuevo,METRO
+False,False,True, Hospital del Henares-Pitis,7,13,Ascao,METRO
+False,False,True, Hospital del Henares-Pitis,7,12,García Noblejas,METRO
+True,True,True, Argüelles-Pinar de Chamartín,4,20,Parque de Santa María,METRO
+True,True,True, Argüelles-Pinar de Chamartín,4,21,Hortaleza,METRO
+True,True,True, Argüelles-Pinar de Chamartín,4,18,Mar de Cristal,METRO
+True,True,True, Argüelles-Pinar de Chamartín,4,19,San Lorenzo,METRO
+False,False,True, Paco de Lucía-Arganda del Rey,9,3,Herrera Oria,METRO
+True,True,True, Paco de Lucía-Arganda del Rey,9,2,Mirasierra,METRO
+True,True,True, Villaverde Alto-Moncloa,3,18,Moncloa,METRO
+True,True,True, Paco de Lucía-Arganda del Rey,9,1,Paco de Lucía,METRO
+True,True,False, Villaverde Alto-Moncloa,3,16,Ventura Rodríguez,METRO
+True,True,True, Villaverde Alto-Moncloa,3,17,Argüelles,METRO
+True,True,True, Villaverde Alto-Moncloa,3,15,Plaza de España,METRO
+True,True,True, Hospital Infanta Sofía-Puerta del Sur,10,2,Reyes Católicos,METRO
+True,True,True, Hospital Infanta Sofía-Puerta del Sur,10,1,Hospital Infanta Sofía,METRO
+False,False,True, Hospital del Henares-Pitis,7,11,Simancas,METRO
+False,False,True, Hospital del Henares-Pitis,7,10,San Blas,METRO
+True,True,True, Hospital del Henares-Pitis,7,8,Estadio Metropolitano,METRO
+False,False,True, Hospital del Henares-Pitis,7,9,Las Musas,METRO
+False,False,True, Argüelles-Pinar de Chamartín,4,16,Esperanza,METRO
+True,True,True, Argüelles-Pinar de Chamartín,4,17,Canillas,METRO
+False,False,True, Argüelles-Pinar de Chamartín,4,15,Arturo Soria,METRO
+False,False,True, Argüelles-Pinar de Chamartín,4,14,Avenida de la Paz,METRO
+True,True,True, Villaverde Alto-Moncloa,3,13,Sol,METRO
+True,True,True, Villaverde Alto-Moncloa,3,14,Callao,METRO
+True,True,False, Villaverde Alto-Moncloa,3,12,Lavapiés,METRO
+True,True,False, Villaverde Alto-Moncloa,3,11,Embajadores,METRO
+True,True,True, Villaverde Alto-Moncloa,3,10,Palos de la Frontera,METRO
+True,True,True, Hospital del Henares-Pitis,7,7,Barrio del Puerto,METRO
+True,True,True, Hospital del Henares-Pitis,7,6,Coslada Central,METRO
+True,True,True, Hospital del Henares-Pitis,7,5,La Rambla,METRO
+True,True,True, Hospital del Henares-Pitis,7,4,San Fernando,METRO
+False,False,True, Argüelles-Pinar de Chamartín,4,13,Alfonso XIII,METRO
+False,False,True, Argüelles-Pinar de Chamartín,4,12,Prosperidad,METRO
+False,False,True, Argüelles-Pinar de Chamartín,4,11,Avenida de América,METRO
+False,False,True, Argüelles-Pinar de Chamartín,4,10,Diego de León,METRO
+False,False,False, Argüelles-Pinar de Chamartín,4,9,Lista,METRO
+True,True,False, Villaverde Alto-Moncloa,3,9,Delicias,METRO
+True,True,True, Villaverde Alto-Moncloa,3,8,Legazpi,METRO
+True,True,True, Villaverde Alto-Moncloa,3,7,Almendrales,METRO
+True,True,True, Villaverde Alto-Moncloa,3,6,Hospital 12 de Octubre,METRO
+True,True,True, Villaverde Alto-Moncloa,3,5,San Fermín - Orcasur,METRO
+True,True,True, Hospital del Henares-Pitis,7,2,Henares,METRO
+True,True,True, Hospital del Henares-Pitis,7,3,Jarama,METRO
+True,True,True, Hospital del Henares-Pitis,7,1,Hospital del Henares,METRO
+True,True,False, Argüelles-Pinar de Chamartín,4,8,Goya,METRO
+False,False,False, Argüelles-Pinar de Chamartín,4,7,Velázquez,METRO
+False,False,False, Argüelles-Pinar de Chamartín,4,6,Serrano,METRO
+False,False,False, Argüelles-Pinar de Chamartín,4,5,Colón,METRO
+True,True,True, Villaverde Alto-Moncloa,3,3,Villaverde Bajo - Cruce,METRO
+True,True,True, Villaverde Alto-Moncloa,3,4,Ciudad de los Ángeles,METRO
+True,True,True, Villaverde Alto-Moncloa,3,2,San Cristóbal,METRO
+True,True,True, Villaverde Alto-Moncloa,3,1,Villaverde Alto,METRO
+False,False,True, Argüelles-Pinar de Chamartín,4,4,Alonso Martínez,METRO
+False,False,False, Argüelles-Pinar de Chamartín,4,3,Bilbao,METRO
+False,False,False, Argüelles-Pinar de Chamartín,4,2,San Bernardo,METRO
+True,True,True, Argüelles-Pinar de Chamartín,4,1,Argüelles,METRO
+True,True,True, Nuevos Ministerios-Aeropuerto T4,8,8,Aeropuerto T4,METRO
+True,True,True, Nuevos Ministerios-Aeropuerto T4,8,7,Barajas,METRO
+True,True,True, Nuevos Ministerios-Aeropuerto T4,8,5,Feria de Madrid,METRO
+True,True,True, Nuevos Ministerios-Aeropuerto T4,8,4,Mar de Cristal,METRO
+True,True,True, Nuevos Ministerios-Aeropuerto T4,8,3,Pinar del Rey,METRO
+True,True,True, Nuevos Ministerios-Aeropuerto T4,8,1,Nuevos Ministerios,METRO
+True,True,True, Nuevos Ministerios-Aeropuerto T4,8,2,Colombia,METRO
+True,True,True, Pinar de Chamartín-Valdecarros,1,27,Miguel Hernández,METRO
+True,True,True, Pinar de Chamartín-Valdecarros,1,26,Alto del Arenal,METRO
+False,False,True, Pinar de Chamartín-Valdecarros,1,25,Buenos Aires,METRO
+False,False,True, Pinar de Chamartín-Valdecarros,1,23,Nueva Numancia,METRO
+False,False,True, Pinar de Chamartín-Valdecarros,1,24,Portazgo,METRO
+False,False,False, Pinar de Chamartín-Valdecarros,1,22,Puente de Vallecas,METRO
+True,False,True, Pinar de Chamartín-Valdecarros,1,21,Pacífico,METRO
+False,False,False, Pinar de Chamartín-Valdecarros,1,20,Menéndez Pelayo,METRO
+False,False,False, Pinar de Chamartín-Valdecarros,1,18,Estación del Arte,METRO
+True,True,True, Pinar de Chamartín-Valdecarros,1,19,Atocha Renfe,METRO
+False,False,False, Pinar de Chamartín-Valdecarros,1,17,Antón Martín,METRO
+False,False,False, Pinar de Chamartín-Valdecarros,1,16,Tirso de Molina,METRO
+True,True,True, Pinar de Chamartín-Valdecarros,1,15,Sol,METRO
+False,False,True, Pinar de Chamartín-Valdecarros,1,14,Gran Vía,METRO
+False,False,True, Pinar de Chamartín-Valdecarros,1,13,Tribunal,METRO
+False,False,False, Pinar de Chamartín-Valdecarros,1,12,Bilbao,METRO
+True,True,False, Pinar de Chamartín-Valdecarros,1,11,Iglesia,METRO
+False,False,False, Pinar de Chamartín-Valdecarros,1,10,Ríos Rosas,METRO
+True,True,True, Pinar de Chamartín-Valdecarros,1,9,Cuatro Caminos,METRO
+False,False,False, Pinar de Chamartín-Valdecarros,1,8,Alvarado,METRO
+False,False,False, Pinar de Chamartín-Valdecarros,1,6,Tetuán,METRO
+False,False,False, Pinar de Chamartín-Valdecarros,1,7,Estrecho,METRO
+False,False,False, Pinar de Chamartín-Valdecarros,1,5,Valdeacederas,METRO
+True,True,True, Pinar de Chamartín-Valdecarros,1,4,Plaza de Castilla,METRO
 True,True,True, Pinar de Chamartín-Valdecarros,1,3,Chamartín,METRO
+True,True,True, Pinar de Chamartín-Valdecarros,1,2,Bambú,METRO
+True,True,True, Pinar de Chamartín-Valdecarros,1,1,Pinar de Chamartín,METRO
