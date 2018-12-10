@@ -1,7 +1,0 @@
-station_name,transport_name,line_name,line_number,position_in_line,accessible,escalator,elevator
-Pinar de Chamartín,METRO,Pinar de Chamartín-Valdecarros,1,1,1,1,1
-Bambú,METRO,Pinar de Chamartín-Valdecarros,1,2,1,1,1
-Chamartín,METRO,Pinar de Chamartín-Valdecarros,1,3,1,1,1
-Plaza de Castilla,METRO,Pinar de Chamartín-Valdecarros,1,4,1,1,1
-Valdeacederas,METRO,Pinar de Chamartín-Valdecarros,1,5,0,0,0
-Tetuán,METRO,Pinar de Chamartín-Valdecarros,1,6,0,0,0

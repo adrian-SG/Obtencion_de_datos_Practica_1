@@ -28,7 +28,7 @@ def get_scripts_dir_path():
 
 
 def sorting_criteria(line_num, line_position):
-    return str(10 ** 10) if line_num is None else line_num, line_position
+    return 3, "zzz", "zzz" if line_num is None else len(line_num), line_num, len(line_position), line_position
 
 
 
@@ -67,6 +67,20 @@ def load_and_clean_scrap_data(scrap_file='scrap_result_1.csv'):
             scrapy_metro_dict.append(aux_dict)
         return scrapy_metro_dict
 
+
+def clean_row(row: str):
+    aux = row.lower()
+    aux = aux.strip()
+
+    strs_to_replace = {"avda.": "avenida", "rda.": "ronda", "-": "", "'": "", " ":""}
+
+
+    for key, value in strs_to_replace.items():
+        aux = aux.replace(key, value)
+
+    return aux
+
+
 def main(scrap_file='scrap_result_1.csv'):
     scripts_dir_path = get_scripts_dir_path()
 
@@ -74,39 +88,51 @@ def main(scrap_file='scrap_result_1.csv'):
     scrapy_metro_dict = load_and_clean_scrap_data(scrap_file)
 
 
+    metro_result_list = list()
+
     # TODO Si hiciese falta, normalizar nombres eliminando todo tipo de prefijos espacios etc y ordenando palabras
     #  del nombre alfabeticamente para comparacion para evitar diferencias de orden
 
 
     # Para cada fila proveniente del fichero, buscar los datos del scrap. Si no se encuentran:
     # datos añadir campos nuevos vacios
-    for metro_row in metro_dict:
-        positive_match = False
-        for scrap_row in scrapy_metro_dict:
-            aux_metro_stop_name = metro_row['stop_name'].lower()
-            aux_scrap_station_name = scrap_row['station_name'].lower()
+    for scrap_row in scrapy_metro_dict:
+        # positive_match = False
+        aux_scrap_station_name = clean_row(scrap_row['station_name'])
+        for metro_row in metro_dict:
+            aux_metro_stop_name = clean_row(metro_row['stop_name'])
 
             is_station = metro_row['stop_id'].startswith('est')
             equals = aux_metro_stop_name == aux_scrap_station_name
             metro_contains_scrap = aux_metro_stop_name.find(aux_scrap_station_name) != -1
 
             if is_station and (equals or metro_contains_scrap):  # positive match
-                metro_row.update(scrap_row)
-                positive_match = True
+
+                new_row = dict()
+                new_row.update(metro_row)
+                new_row.update(scrap_row)
+                metro_result_list.append(new_row)
+                # positive_match = True
                 break
 
-        if not positive_match:
-            aux = dict()
-            [aux.update({key: None}) for key in scrap_fields]
-            metro_row.update(aux)
+            # if not positive_match:
+            # else:
+            #     new_row = dict()
+            #     new_row.update(metro_row)
+            #     # new_row.update(dict().fromkeys(scrap_fields))
+            #     [new_row.update({key: ''}) for key in scrap_fields]
+            #     metro_result_list.append(new_row)
 
     merge_results_path = scripts_dir_path + '/' + MERGE_REL_PATH
     default_result_filename = 'merge_result_1.csv'
     result_filename = spider_runner.get_next_filename(default_result_filename.replace('1', '*'),  merge_results_path)
     merge_result_uri = merge_results_path + result_filename
 
-    with open(merge_result_uri, 'wt', encoding='utf-8-sig') as target_file:
+    write_results(merge_result_uri, metro_result_list)
 
+
+def write_results(merge_result_uri, metro_result_list):
+    with open(merge_result_uri, 'wt', encoding='utf-8-sig') as target_file:
         field_names = metro_fields + scrap_fields
         writer = csv.DictWriter(target_file, field_names)
 
@@ -115,7 +141,7 @@ def main(scrap_file='scrap_result_1.csv'):
         # 1: Primero los registros con numero de linea
         # 2: Los registros con menor numero de linea primero
         # 3: Los registos con menor posicion en linea primero
-        for row in sorted(metro_dict, key=lambda r: sorting_criteria(r['line_number'], r['position_in_line'])):
+        for row in sorted(metro_result_list, key=lambda r: sorting_criteria(r['line_number'], r['position_in_line'])):
             writer.writerow(row)
 
 
